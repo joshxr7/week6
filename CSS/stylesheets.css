@@ -17,42 +17,44 @@ h2 + p{
     } */
 
 li a:link {
-
-color: red;
-
+  color: red;
 }
 
 li a:visited {
-
-color: green;
-
+  color: green;
 }
 
 li a:hover {
-
-color: pink;
+  color: pink;
 }
 
-li:first-child::first-letter{
-
-    font-weight: bold;
-    font-size: 120%;
-
+li:first-child::first-letter {
+  font-weight: bold;
+  font-size: 120%;
 }
 
-a[href*="https://bcit.ca"] {
-
-background-color: yellow;
-
-}
-
-img
+a[href*="https://bcit.ca"]
 {
+  background-color: yellow;
+}
 
-    float:left;
+img {
+  float: left;
+}
+.below {
+  clear: left;
+}
+
+.target {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: forestgreen;
+  top: 0px;
+  right: 0px;
 
 }
-.below{
-
-    clear: left;
+.container {
+  border: 2px gray solid;
+  position: relative;
 }
