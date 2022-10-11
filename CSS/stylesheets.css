@@ -16,26 +16,32 @@ h2 + p{
     
     } */
 
-a:link {
+li a:link {
 
 color: red;
 
 }
 
-a:visited {
+li a:visited {
 
 color: green;
 
 }
 
-a:hover {
+li a:hover {
 
 color: pink;
 }
 
 li:first-child::first-letter{
 
-    font-style: bold;
+    font-weight: bold;
     font-size: 120%;
+
+}
+
+a[href*="https://bcit.ca"] {
+
+background-color: yellow;
 
 }
